@@ -25,7 +25,7 @@ resource "aws_security_group" "allow_all" {
         cidr_blocks      = ["0.0.0.0/0"]
         ipv6_cidr_blocks = ["::/0"]
     }
-
+    #lifecycle is for creating another resource at a time
     lifecycle {
       create_before_destroy = true
     }
