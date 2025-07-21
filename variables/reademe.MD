@@ -13,6 +13,7 @@ Definition : In Terraform, variables are placeholders for values that make your 
 ---> When you refer variables into another code you can mention "var.name"
 
 ---> The below are the types of variables in Terraform.
+
      1.variable file : We are mentioning in seperate folder to access them from 
                        code referred as "var.name"
 
