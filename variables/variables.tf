@@ -1,4 +1,4 @@
-
+# We are giving default values to variables.
 variable "ami_id" {
   type        = string
   default     = "ami-09c813fb71547fc4f"
