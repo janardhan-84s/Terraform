@@ -3,7 +3,8 @@
 Definition : In Terraform, variables are placeholders for values that make your      infrastructure code   reusable, flexible, and easier to manage.
    Instead of hardcoding things like instance types, regions, or IP addresses, you define variables and assign values to them. This way, you can use the same configuration across different environments just by changing the variable values
 
----> syntax:  variable "name of variable" {
+# syntax: 
+             variable "name of variable" {
                type=string/number/charcter
                default = "value"
                description = you want
